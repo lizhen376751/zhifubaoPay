@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+/.classpath
+out/
+/.idea/
+*.class
+/.settings/
+/lib
+.idea
+.classpath
+.project
+.settings
+readme.txt
+zhifubao.iml
+build
