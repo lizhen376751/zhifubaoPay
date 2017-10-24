@@ -5,6 +5,8 @@
 <%@ page import="com.alipay.config.*"%>
 <%@ page import="com.alipay.api.*"%>
 <%
+    //支付宝下单以及付款后的回调通知
+
 	//获取支付宝POST过来反馈信息
 	Map<String,String> params = new HashMap<String,String>();
 	Map requestParams = request.getParameterMap();

@@ -28,6 +28,8 @@
   </head>
   <body>
 <%
+	//支付宝付款后的页面跳转
+
 	//获取支付宝GET过来反馈信息
 	Map<String,String> params = new HashMap<String,String>();
 	Map requestParams = request.getParameterMap();

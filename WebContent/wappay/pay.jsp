@@ -49,7 +49,7 @@ if(request.getParameter("WIDout_trade_no")!=null){
     alipay_request.setBizModel(model);
     // 设置异步通知地址
     alipay_request.setNotifyUrl(AlipayConfig.notify_url);
-    // 设置同步地址
+//    // 设置同步地址
     alipay_request.setReturnUrl(AlipayConfig.return_url);
 
     // form表单生产
@@ -265,9 +265,9 @@ if(request.getParameter("WIDout_trade_no")!=null){
 		sNow += String(vNow.getSeconds());
 		sNow += String(vNow.getMilliseconds());
 		document.getElementById("WIDout_trade_no").value =  sNow;
-		document.getElementById("WIDsubject").value = "手机网站支付测试商品";
+		document.getElementById("WIDsubject").value = "miaoshu";
 		document.getElementById("WIDtotal_amount").value = "0.01";
-        document.getElementById("WIDbody").value = "购买测试商品0.01元";
+        document.getElementById("WIDbody").value = "goumaishangpin0.01";
 	}
 	GetDateNow();
 </script>
